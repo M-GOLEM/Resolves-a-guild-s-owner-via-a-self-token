@@ -68,10 +68,3 @@ GNU General Public License v3.0 - see [LICENSE](LICENSE).
 ## Disclaimer
 
 Self-tokens violate the **Discord Terms of Service**. Using them can result in account termination. These scripts are provided for educational and research purposes only - use at your own risk and within the rules of what you are testing.
-
----
-
-<div align="center">
-  <sub>Built by <a href="https://github.com/M-GOLEM"><b>Mr.GOLEM</b></a> ·
-  watch the work on <a href="https://www.youtube.com/@golemsec">YouTube — GOLEM SEC</a></sub>
-</div>
