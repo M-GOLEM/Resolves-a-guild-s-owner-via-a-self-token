@@ -10,6 +10,20 @@ A collection of independent Python scripts - each one self-contained, quick to c
 
 ---
 
+## Before you run anything
+
+- **Self-tokens violate the Discord Terms of Service** and can get the account
+  terminated. Use a bot token that belongs to you and has the minimum scopes,
+  or the official OAuth2 flow.
+- Only query guilds you own or administer. Enumerating someone else's guild
+  with a user token is unauthorized access in many jurisdictions.
+- Do not commit tokens. The scripts use placeholders; keep real values in
+  environment variables or an untracked local file.
+- Discord rate-limits per route and per bucket. The scripts send a single
+  request each, so no retry loop is included; do not add aggressive polling.
+- The endpoints used here are the public Discord API v10
+  (`https://discord.com/api/v10`). They can change without notice.
+
 ## Scripts
 
 | Script | Purpose |
@@ -46,6 +60,10 @@ python discord_server_tools.py
 Put a token in the `TOKEN` placeholder and set your target `guild_id` inside the script, then run.
 
 ---
+
+## License
+
+GNU General Public License v3.0 - see [LICENSE](LICENSE).
 
 ## Disclaimer
 
